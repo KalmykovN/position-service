@@ -1,0 +1,28 @@
+# Ignore build directories
+/target/
+
+/out/
+/application/out/
+/api/out/
+
+# IntelliJ IDEA specific
+/.idea/
+/application/.idea/
+/api/.idea/
+/*.iml
+
+# Ignore logs
+*.log
+logs/
+
+
+# Maven specific
+.mvn/
+
+!/.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-p
